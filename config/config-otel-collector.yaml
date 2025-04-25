@@ -12,7 +12,7 @@ processors:
     limit_percentage: 50
     spike_limit_percentage: 30
 
-  # Detail dari tail sampling dapat cek disini
+  # Detail about tail sampling
   # https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/tailsamplingprocessor/README.md
   tail_sampling:
     decision_wait: 5s
